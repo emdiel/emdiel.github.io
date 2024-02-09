@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    color: #EEEEEE;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-links {
+    margin-right: 0.75rem;
+}
+
+.headline {
+    background: linear-gradient(rgba(30, 30, 30, 0.6), rgba(30, 30, 30, 1)), url(images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    
+}  
+
+.icon01 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.title01 {
+    margin-top: 50px;
+    font-size: 26px;
+}
+
+.par01 {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+section button {
+    margin-top: 50px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #303030;
+    border-radius: 4px;
+}
+
+.skill {
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    margin: 1.5rem;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #303030;
+}
+
+.icon-s {
+    width: 30px;
+    height: 30px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+
+.home {
+    justify-content: unset;
+    align-items: unset;
+    display: unset;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.headline {
+    width: 100%;
+    border-radius: 0px;
+    justify-content: center;
+
+}
+
+.skill {
+    margin: .75rem;
+    width: auto;
+}
+
+.skill-set {
+    margin-top: 25px;
+    display: flex;
+    padding: 1rem;
+}
+
+.skill p {
+    display: none;
+}
+
+
+}
+
+
+
+
+ 
+ 
+ 
