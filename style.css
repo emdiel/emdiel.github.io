@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;800&display=swap');
 
 *{
     margin: 0;
@@ -115,18 +115,30 @@ section button {
 }
 
 .skill {
-    margin: .75rem;
+    margin: 1rem;
     width: auto;
 }
 
 .skill-set {
-    margin-top: 25px;
+    margin-top: 50px;
     display: flex;
     padding: 1rem;
 }
 
 .skill p {
     display: none;
+}
+
+.title01 {
+    margin-top: 60px;
+}
+
+.par01 {
+    margin-top: 25px;
+}
+
+section button {
+    margin-top: 60px;
 }
 
 
