@@ -124,7 +124,8 @@ section button {
 
 .skill-set {
     display: flex;
-    padding: 1.5rem 1rem 1rem 1rem;
+    padding: 1rem;
+    margin-top: 1.75rem;
 }
 
 .skill p {
@@ -175,6 +176,7 @@ section button {
 .skill-set {
     display: flex;
     padding: 1rem ;
+    margin-top: 1.75rem;
 }
 
 .skill {
