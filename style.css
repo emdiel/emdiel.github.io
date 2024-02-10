@@ -42,7 +42,7 @@ li, a {
 }
 
 .headline {
-    background: linear-gradient(rgba(30, 30, 30, 0.6), rgba(30, 30, 30, 1)), url(images/background-image.jpg);
+    background: linear-gradient(rgba(30, 30, 30, 0.6), rgba(30, 30, 30, 1)), url(images/background-image-00.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem;
@@ -93,8 +93,10 @@ section button {
 }
 
 .icon-s {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    filter: grayscale(100%);
 }
 
 /* Adapt */
