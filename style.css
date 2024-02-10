@@ -93,14 +93,14 @@ section button {
 }
 
 .icon-s {
-    width: 34px;
-    height: 34px;
+    width: 35px;
+    height: 35px;
     filter: grayscale(100%);
 }
 
 .icon-xs {
-    width: 37px;
-    height: 37px;
+    width: 40px;
+    height: 40px;
     filter: grayscale(100%)
 }
 
