@@ -77,11 +77,15 @@ section button {
     border-radius: 7px;
 }
 
+.skill-set {
+    padding: 1rem;
+}
+
 .skill {
     border-radius: 10px;
     width: 200px;
     display: flex;
-    margin: 1.5rem;
+    margin: 2rem ;
     align-items: center;
     padding: 1rem;
     gap: 1rem;
@@ -120,7 +124,7 @@ section button {
 
 .skill-set {
     display: flex;
-    padding: 1rem;
+    padding: 1.5rem 1rem 1rem 1rem;
 }
 
 .skill p {
@@ -170,7 +174,7 @@ section button {
 
 .skill-set {
     display: flex;
-    padding: 1rem;
+    padding: 1rem ;
 }
 
 .skill {
