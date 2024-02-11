@@ -161,7 +161,7 @@ section button {
  @media screen and (min-width: 768px) and (max-width: 1023px) {
 
 .headline {
-    border-radius: 10px;
+    border-radius: 0px;
     width: 100%;
 }
 
