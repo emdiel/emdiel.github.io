@@ -87,7 +87,7 @@ section button {
     display: flex;
     margin: 2rem ;
     align-items: center;
-    padding: 1rem;
+    padding: .75rem;
     gap: 1rem;
     background-color: #303030;
 }
